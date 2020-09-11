@@ -84,7 +84,7 @@ const SmurfForm = ({ postNewSmurf }) => {
 
   return (
     <Background>
-      <h1>Please Add Smurf Members To Increase Our Village Family</h1>
+      <h1>Please Add Smurf a Smurf Below!</h1>
       <div>
         <form onSubmit={handleSubmit}>
           <div>
