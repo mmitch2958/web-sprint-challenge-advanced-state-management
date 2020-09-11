@@ -1,5 +1,5 @@
 import React from "react";
-
+// Smurf Data Card 
 const Smurf = ({smurf}) => {
   return (
     <>

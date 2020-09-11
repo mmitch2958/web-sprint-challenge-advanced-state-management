@@ -50,7 +50,7 @@ const Background = styled.div`
         }
 `;
 
-
+// Smurf Form 
 
 const SmurfForm = ({ postNewSmurf }) => {
   const newSmurt = {
@@ -62,7 +62,7 @@ const SmurfForm = ({ postNewSmurf }) => {
 
   const [smurf, setSmurf] = useState(newSmurt);
 
- 
+ // Handels Imput of new Smurf Submission 
   const handleChange = (e) => {
     setSmurf({
       ...smurf,

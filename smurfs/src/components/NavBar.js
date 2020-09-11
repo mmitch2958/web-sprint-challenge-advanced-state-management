@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+
+//NavBar and Navagation Links to Home
 const Nav = styled.div`
   width: 100%;
   height: 100px;
@@ -22,6 +24,7 @@ const Nav = styled.div`
     margin-top: 40px;
     margin-left: 20px;
     padding: 30px;
+
     a {
       text-decoration: none;
       color: white;

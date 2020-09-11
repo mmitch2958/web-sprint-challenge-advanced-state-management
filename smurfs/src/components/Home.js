@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import background from "../images/OIP.jpg";
 import styled from "styled-components";
 
+
+//Home Site , To enter adding a smurf 
 const HomeContainer = styled.div`
   background-image: url(${background});
   width: 100%;
