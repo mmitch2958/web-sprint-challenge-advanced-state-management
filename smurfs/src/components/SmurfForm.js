@@ -3,11 +3,12 @@ import { postNewSmurf } from "../actions/actions";
 import { connect } from "react-redux";
 import SmurfList from "./SmurfList";
 import styled from "styled-components";
+import form from '../images/smurf2.jpg'
 
 const Background = styled.div`
- 
+    background-image: url(${form});
     width: 100%;
-    height: 900px;
+    height: 100%;
     margin-top: -27px;
     background-size: cover;
     h1 {

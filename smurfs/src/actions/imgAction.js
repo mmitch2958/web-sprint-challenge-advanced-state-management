@@ -33,7 +33,7 @@ export const uploadImage = (data) => {
 
     imageCdn.post('/upload', data, options).then((res) => {
       dispatch(saveImage(res.data))
-      //   dispatch(uploadedPercent(100))
+    
     })
   }
 }
